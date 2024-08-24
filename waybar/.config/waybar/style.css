@@ -1,0 +1,104 @@
+/* General styling */
+* {
+    font-family: "JetBrains Mono", "Font Awesome 6 Free", monospace;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Waybar window styling */
+window#waybar {
+    background-color: #282828;
+    border-bottom: 2px solid #3c3836;
+    color: #ebdbb2;
+}
+
+/* Workspace module styling */
+#workspaces button {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#workspaces button.active {
+    background-color: #458588;
+    color: #282828;
+}
+
+#workspaces button:hover {
+    background-color: #504945;
+}
+
+/* Clock module styling */
+#clock {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Pulseaudio module styling */
+#pulseaudio {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#pulseaudio:hover {
+    background-color: #504945;
+}
+
+/* Network module styling */
+#network {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#network:hover {
+    background-color: #504945;
+}
+
+/* Language module styling */
+#language {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#language:hover {
+    background-color: #504945;
+}
+
+/* Custom Power module styling */
+#custom_power {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#custom_power:hover {
+    background-color: #504945;
+}
+
+/* Additional styling for the bar */
+.module {
+    background-color: #3c3836;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.module:hover {
+    background-color: #504945;
+}
+
+.separator {
+    background-color: #282828;
+    color: #ebdbb2;
+    padding: 0 5px;
+    border-radius: 4px;
+}

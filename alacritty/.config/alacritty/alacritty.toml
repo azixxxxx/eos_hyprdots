@@ -1,0 +1,15 @@
+import = [
+    "~/.config/alacritty/themes/gruvbox_material_medium_dark.toml"
+]
+
+
+[window]
+decorations = "None"
+opacity = 0.7
+blur = true
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font", style = "Semibold"}
+
+[cursor]
+style = {shape = "Beam", blinking = "Off"}
